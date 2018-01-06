@@ -1,6 +1,6 @@
 {
   "name": "react-toodle",
-  "version": "0.0.1-1",
+  "version": "0.0.1",
   "description": "React bindings for toodle",
   "main": "index.js",
   "scripts": {
