@@ -28,7 +28,7 @@
   "homepage": "https://github.com/kgroat/react-toodle#readme",
   "devDependencies": {
     "@types/prop-types": "^15.5.2",
-    "@types/react": "^15.0.0",
+    "@types/react": "^15.6.11",
     "jest": "^22.0.4",
     "prop-types": "^15.0.0",
     "react": "^15.0.0",
