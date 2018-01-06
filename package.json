@@ -4,6 +4,7 @@
   "description": "React bindings for toodle",
   "main": "index.js",
   "scripts": {
+    "prepare": "tsc",
     "test": "jest --config jest.json"
   },
   "files": [
