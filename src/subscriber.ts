@@ -7,8 +7,8 @@ export interface ToodleSubscriber<O> {
   default?: O
 }
 
-export function subscribe<O, T extends Toodle = any> (getter: (toodle: T) => Observable<O>) {
-  return (toodle: T) => ({
-    observable: getter(toodle)
-  })
+export function subscribe<O, T extends Toodle = any> (observable: Observable<O>): ToodleSubscriber<O> {
+  return {
+    observable,
+  }
 } 
