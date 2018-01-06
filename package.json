@@ -1,0 +1,42 @@
+{
+  "name": "react-toodle",
+  "version": "0.0.0",
+  "description": "React bindings for toodle",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kgroat/react-toodle.git"
+  },
+  "keywords": [
+    "toodle",
+    "react"
+  ],
+  "author": "kgroat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgroat/react-toodle/issues"
+  },
+  "homepage": "https://github.com/kgroat/react-toodle#readme",
+  "devDependencies": {
+    "@types/prop-types": "^15.5.2",
+    "@types/react": "^15.0.0",
+    "jest": "^22.0.4",
+    "prop-types": "^15.0.0",
+    "react": "^15.0.0",
+    "rxjs": "^5.5.6",
+    "toodle": "0.0.1-2",
+    "ts-jest": "^22.0.1",
+    "typescript": "^2.6.2"
+  },
+  "peerDependencies": {
+    "prop-types": ">=15.0.0",
+    "react": ">=15.0.0",
+    "toodle": "0.0.1-2"
+  }
+}
