@@ -1,4 +1,3 @@
 
 export * from './subscriber'
-export * from './toodleHOC'
-export * from './ToodleProvider'
+export * from './ToodleWrapper'
